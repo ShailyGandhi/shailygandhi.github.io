@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Year Headings */
+.year-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0056b3;
+    margin-top: 30px;
+    border-bottom: 3px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+/* Publication Cards */
+.publication {
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #0056b3;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.publication:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Publication Text */
+.publication p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Author Name */
+.publication strong {
+    color: #222;
+}
+
+/* Links */
+.publication a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.publication a:hover {
+    color: #00408a;
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .year-heading {
+        font-size: 1.3rem;
+    }
+
+    .publication {
+        padding: 12px;
+    }
+
+    .publication p {
+        font-size: 0.95rem;
+    }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
